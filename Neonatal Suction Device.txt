@@ -1,0 +1,22 @@
+Neonatal Suction Device
+slide-1 : name of proj, team
+slide-2 : top-a microcontroller based automated suction device that can expel viral secretion from a baby's (1-30 days) chest/wind pipe to avoid choking
+          scope of work- 1. android app for filling the patient details and operational paramaters such as frequency, duration of suction etc(app video)
+                         2. interface and build controller logic to read pressure(back pressure) & vacuum(suction manifold) sensors and control suction pump and valves  
+slide-3 : block diagram
+          main components(BOM: RP2040 microcontroller
+                               16x2 or 20x4 lcd display
+                               i2c devices - RTC DS3231, ADC ADS1115, EEPROM AT24C64, pressure/vacuum sensor XGZP6847D
+                               suction pump and bottles
+                               couplers, T-junction 3d print(fusion 360))
+slide-4 : flow chart(build on pyhton)
+slide-5 : schedule (start date-30 may)
+          week1 : study and research scope of work, introduction to micropyhton, interfacing I/O
+          week2 : building RP2040 breakout board
+          week3 : lcd menu system, building flowchart
+          week4 : writing firmware functions - 1. initialization
+                                               2. communication
+                                                
+          week5 : building app
+          week6 : bluetooth
+          week7 : testing 
